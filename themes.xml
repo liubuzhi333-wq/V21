@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.ThermalDisplay" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorAccent">#8FDCFF</item>
+        <item name="android:navigationBarColor">#596872</item>
+        <item name="android:statusBarColor">#596872</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

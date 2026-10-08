@@ -1,0 +1,15 @@
+V21 上传说明
+
+1. 解压 ZIP，将可见工程文件上传到 GitHub 仓库根目录。
+2. 不需要上传 .github 隐藏目录。
+3. 若仓库已有 .github/workflows/build-apk.yml，保留原工作流即可。
+4. 若没有：GitHub -> Add file -> Create new file -> 文件名输入：
+   .github/workflows/build-apk.yml
+5. 将根目录 BUILD_APK_WORKFLOW.yml 的内容全部复制进去并 Commit。
+6. Actions -> Build APK -> Run workflow。
+
+V21 重点：
+- UI / 配色 / 布局锁定。
+- 左右媒体区改为 View 属性缩放，不再使用 ImageView Matrix。
+- 保留 BootReceiver。
+- 新增可选 HOME Launcher 模式，适合 86 寸固定展示终端开机直达。
